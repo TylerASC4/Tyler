@@ -5,4 +5,4 @@ function rand(num) {
     console.log(randInt);
     return randInt;
 }
-rand(10);
+rand(4);

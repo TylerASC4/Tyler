@@ -15,7 +15,7 @@ if (grade =="A)") {
 
  var pet = dog 
  if(pet == "dog"){
-        console.log("dogs are the best");
+     console.log("dogs are the best");
 }else{
-    
+    console.log("cats are bad")
 }
