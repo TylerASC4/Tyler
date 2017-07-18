@@ -5,4 +5,8 @@ function rand(num) {
     console.log(randInt);
     return randInt;
 }
-rand(4);
+rand(4)
+
+console.log(myPets[0]);
+console.log(myPets[0].name);
+for(var i = 0; < 3; i ++){console.log(myPets[i].name);}
