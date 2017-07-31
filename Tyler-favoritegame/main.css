@@ -1,0 +1,13 @@
+body {
+      background: url("http://media02.hongkiat.com/cool-interesting-websites/drench.jpg");
+      background-size: cover;
+      background-position:center;
+      height:auto;
+      width:auto;
+      float: left;
+      overflow: hidden;
+      margin:auto;
+    }
+    img {
+        max-width:auto;
+        height: auto;

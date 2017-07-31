@@ -9,7 +9,7 @@ this.ability = ability2;
 }
 var superman = {
     'realName' : 'clark kent'
-};
+}
     var batman = new superhero ('bruce wayne','dat money','male','Joker')
     var StaticShock = new superhero('Virgil','electricity','male','Ebon')
 console.log(StaticShock.realName);

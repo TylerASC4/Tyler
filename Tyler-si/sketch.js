@@ -15,9 +15,13 @@ if(x>500){x=0}
 else if(x>500){x=500}}
 
 if(keyIsPressed(UP_ARROW)){}
-// var rect = [];
-// for(c=0; c<rectColumnCount; c++){
-//     rect[c] = []
-//     for(r=0; r<rectRowCount; r++)
-//     rect[c][r] = {x:0, y:0, status: 1}
-// }
+function(keyIsPressed(UP_ARROW){8 =+x};
+
+
+
+var rect = [];
+for(c=0; c<rectColumnCount; c++){
+    rect[c] = []
+    for(r=0; r<rectRowCount; r++)
+    rect[c][r] = {x:0, y:0, status: 1}
+}
