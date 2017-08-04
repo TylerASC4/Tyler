@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+<head> 
+<link rel="stylesheet" href=".css">
+<script id="js-file"src= ".js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" id= "sign-in" content="620692403374-1b00matm39erpmb5b1vhaoa7e3rbs4vo.apps.googleusercontent.com">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="g-signin2" id="sign-in"data-onsuccess="onSignIn"></div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">
+                </div>
+  <a href="#" id= "sign-out"onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+}
+</script></head>
+<center><h1>Welcome to Ben and Tye... Game Server<h1></center>
+</body></html>
